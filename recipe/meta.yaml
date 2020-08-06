@@ -1,5 +1,5 @@
 {% set name = "azure-datalake-store" %}
-{% set version = "0.0.48" %}
+{% set version = "0.0.49" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: d27c335783d4add00b3a5f709341e4a8009857440209e15a739a9a96b52386f7
+  sha256: 3fcede6255cc9cd083d498c3a399b422f35f804c561bb369a7150ff1f2f07da9
 
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
@@ -33,7 +33,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: License.txt
-  summary: 'This project is the Python filesystem library for Azure Data Lake Store'
+  summary: This project is the Python filesystem library for Azure Data Lake Store
 
   description: |
     A pure-python interface to the Azure Data-lake Storage system,
@@ -44,6 +44,6 @@ about:
 
 extra:
   recipe-maintainers:
-     - dillonroach
-     - scopatz
-     - costrouc
+    - dillonroach
+    - scopatz
+    - costrouc
