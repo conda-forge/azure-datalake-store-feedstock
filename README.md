@@ -5,9 +5,13 @@ Home: http://github.com/Azure/azure-data-lake-store-python
 
 Package license: MIT
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/azure-datalake-store-feedstock/blob/master/LICENSE.txt)
 
 Summary: This project is the Python filesystem library for Azure Data Lake Store
+
+Development: http://github.com/Azure/azure-data-lake-store-python
+
+Documentation: http://github.com/Azure/azure-data-lake-store-python
 
 A pure-python interface to the Azure Data-lake Storage system,
 providing pythonic file-system and file objects, seamless transition
