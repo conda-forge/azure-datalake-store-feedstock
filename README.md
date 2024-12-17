@@ -153,6 +153,7 @@ Feedstock Maintainers
 =====================
 
 * [@costrouc](https://github.com/costrouc/)
+* [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@dillonroach](https://github.com/dillonroach/)
 * [@scopatz](https://github.com/scopatz/)
 
