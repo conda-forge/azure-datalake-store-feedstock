@@ -1,5 +1,5 @@
 {% set name = "azure-datalake-store" %}
-{% set version = "0.0.51" %}
+{% set version = "0.0.53" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: b871ebb3bcfd292e8a062dbbaacbc132793d98f1b60f549a8c3b672619603fc1
+  sha256: 05b6de62ee3f2a0a6e6941e6933b792b800c3e7f6ffce2fc324bc19875757393
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
@@ -22,7 +22,7 @@ requirements:
   run:
     - python >={{ python_min }}
     - cffi
-    - adal >=0.4.2
+    - msal >=1.16.0,<2
     - requests >=2.20.0
 
 test:
