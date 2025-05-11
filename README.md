@@ -17,7 +17,6 @@ A pure-python interface to the Azure Data-lake Storage system,
 providing pythonic file-system and file objects, seamless transition
 between Windows and POSIX remote paths, high-performance up- and down-loader.
 
-
 Current build status
 ====================
 
@@ -155,5 +154,6 @@ Feedstock Maintainers
 * [@costrouc](https://github.com/costrouc/)
 * [@dhirschfeld](https://github.com/dhirschfeld/)
 * [@dillonroach](https://github.com/dillonroach/)
+* [@janjagusch](https://github.com/janjagusch/)
 * [@scopatz](https://github.com/scopatz/)
 
