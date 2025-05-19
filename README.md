@@ -40,14 +40,14 @@ Current release info
 Installing azure-datalake-store
 ===============================
 
-Installing `azure-datalake-store` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `azure-datalake-store` from the `conda-forge/label/azure-datalake-store_rc` channel can be achieved by adding `conda-forge/label/azure-datalake-store_rc` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/azure-datalake-store_rc
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `azure-datalake-store` can be installed with `conda`:
+Once the `conda-forge/label/azure-datalake-store_rc` channel has been enabled, `azure-datalake-store` can be installed with `conda`:
 
 ```
 conda install azure-datalake-store
@@ -62,26 +62,26 @@ mamba install azure-datalake-store
 It is possible to list all of the versions of `azure-datalake-store` available on your platform with `conda`:
 
 ```
-conda search azure-datalake-store --channel conda-forge
+conda search azure-datalake-store --channel conda-forge/label/azure-datalake-store_rc
 ```
 
 or with `mamba`:
 
 ```
-mamba search azure-datalake-store --channel conda-forge
+mamba search azure-datalake-store --channel conda-forge/label/azure-datalake-store_rc
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search azure-datalake-store --channel conda-forge
+mamba repoquery search azure-datalake-store --channel conda-forge/label/azure-datalake-store_rc
 
 # List packages depending on `azure-datalake-store`:
-mamba repoquery whoneeds azure-datalake-store --channel conda-forge
+mamba repoquery whoneeds azure-datalake-store --channel conda-forge/label/azure-datalake-store_rc
 
 # List dependencies of `azure-datalake-store`:
-mamba repoquery depends azure-datalake-store --channel conda-forge
+mamba repoquery depends azure-datalake-store --channel conda-forge/label/azure-datalake-store_rc
 ```
 
 
